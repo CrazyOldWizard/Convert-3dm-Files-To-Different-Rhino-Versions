@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert 3dm Files To Different Rhino Versions", "Convert 3dm Files To Different Rhino Versions\Convert 3dm Files To Different Rhino Versions.csproj", "{8454B5D1-EB83-41D8-ABFC-05DA0E46BDE2}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Convert 3dm Files Installer", "Convert 3dm Files Installer\Convert 3dm Files Installer.vdproj", "{F4379274-B922-45C3-A222-E1951C3EBAFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{8454B5D1-EB83-41D8-ABFC-05DA0E46BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8454B5D1-EB83-41D8-ABFC-05DA0E46BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8454B5D1-EB83-41D8-ABFC-05DA0E46BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4379274-B922-45C3-A222-E1951C3EBAFC}.Debug|Any CPU.ActiveCfg = Debug
+		{F4379274-B922-45C3-A222-E1951C3EBAFC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
