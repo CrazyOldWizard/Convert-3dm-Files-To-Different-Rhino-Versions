@@ -9,7 +9,6 @@ You can convert to the following versions of Rhino:
  - Rhino 6
  - Rhino 7
 
-![enter image description here](https://i.imgur.com/R5GUw6f.png
 ## Installation
 
 Download the latest version from the [release section](https://github.com/CrazyOldWizard/Convert-3dm-Files-To-Different-Rhino-Versions/releases) and then run the exe.
