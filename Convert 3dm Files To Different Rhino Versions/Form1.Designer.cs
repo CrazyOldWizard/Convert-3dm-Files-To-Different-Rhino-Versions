@@ -186,6 +186,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             this.Controls.Add(this.BTN_Browse);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(650, 175);
             this.MinimumSize = new System.Drawing.Size(650, 175);
             this.Name = "Form1";
