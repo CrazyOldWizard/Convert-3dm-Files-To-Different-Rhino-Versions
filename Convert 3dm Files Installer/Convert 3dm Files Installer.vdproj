@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0D391CD7DC794780848A7E13F623E997"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_350F62A6F4FDC026909B86842C597A81"
         "OwnerKey" = "8:_430CCBA24E6145E09D16A6515D08A945"
         "MsmSig" = "8:_UNDEFINED"
@@ -33,32 +27,38 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5685CC688F874886DDF7DBE9866929DB"
+        "MsmKey" = "8:_5C1D13366EC6432C9946701D70E24932"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6CAD617D6ABBD0B61F86B0CC32BE0C46"
         "OwnerKey" = "8:_430CCBA24E6145E09D16A6515D08A945"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D5B959128DEA488286770AC7E1952BF0"
+        "MsmKey" = "8:_FA2DFA92019E483DB74E7BCD65E10FDF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_350F62A6F4FDC026909B86842C597A81"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_430CCBA24E6145E09D16A6515D08A945"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5685CC688F874886DDF7DBE9866929DB"
+        "OwnerKey" = "8:_6CAD617D6ABBD0B61F86B0CC32BE0C46"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_350F62A6F4FDC026909B86842C597A81"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -79,6 +79,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -95,6 +103,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -124,26 +148,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0D391CD7DC794780848A7E13F623E997"
-            {
-            "SourcePath" = "8:..\\Convert 3dm Files To Different Rhino Versions\\bin\\Release\\Win32\\librhino3dmio_native.dll"
-            "TargetName" = "8:librhino3dmio_native.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_60890103A5CF4ED19FA4596F90FB244D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_350F62A6F4FDC026909B86842C597A81"
             {
             "AssemblyRegister" = "3:1"
@@ -175,14 +179,34 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5685CC688F874886DDF7DBE9866929DB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5C1D13366EC6432C9946701D70E24932"
+            {
+            "SourcePath" = "8:Rhino3dmIO\\Win32\\librhino3dmio_native.dll"
+            "TargetName" = "8:librhino3dmio_native.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_92F8E8E66D8C4FD7A6ABF94AE74FB9E8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6CAD617D6ABBD0B61F86B0CC32BE0C46"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Rhino3dmIO, Version=7.1.20343.1000, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_5685CC688F874886DDF7DBE9866929DB"
+                    "_6CAD617D6ABBD0B61F86B0CC32BE0C46"
                     {
                     "Name" = "8:Rhino3dmIO.dll"
                     "Attributes" = "3:512"
@@ -206,12 +230,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5B959128DEA488286770AC7E1952BF0"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA2DFA92019E483DB74E7BCD65E10FDF"
             {
-            "SourcePath" = "8:..\\Convert 3dm Files To Different Rhino Versions\\bin\\Release\\Win64\\librhino3dmio_native.dll"
+            "SourcePath" = "8:Rhino3dmIO\\Win64\\librhino3dmio_native.dll"
             "TargetName" = "8:librhino3dmio_native.dll"
             "Tag" = "8:"
-            "Folder" = "8:_E277CB8FD745414ABE1C1FF6789A3E9D"
+            "Folder" = "8:_431D25A48F2D4FC2991B24B8D8F8758C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -253,24 +277,24 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_60890103A5CF4ED19FA4596F90FB244D"
-                    {
-                    "Name" = "8:Win32"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_AFB4A414028B48998EE6EAC81E796D65"
-                        "Folders"
-                        {
-                        }
-                    }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_E277CB8FD745414ABE1C1FF6789A3E9D"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_431D25A48F2D4FC2991B24B8D8F8758C"
                     {
                     "Name" = "8:Win64"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_B1BF545FFC9F404DA4D3D65837F311AC"
+                    "Property" = "8:_68ACA165391049B68C25FB59BAC7D3C6"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_92F8E8E66D8C4FD7A6ABF94AE74FB9E8"
+                    {
+                    "Name" = "8:Win32"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_ACC5D8936FFB47C2A36C73C26E8F152D"
                         "Folders"
                         {
                         }
@@ -305,7 +329,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Convert 3dm Files Installer"
         "ProductCode" = "8:{5840CB32-CF08-4C48-ADFC-F91C652CBFBA}"
-        "PackageCode" = "8:{626C0253-FBB3-4A84-9611-75C406F543F2}"
+        "PackageCode" = "8:{3E935C60-6936-4354-BBE4-6E8BD514409B}"
         "UpgradeCode" = "8:{11F3BE15-E7C5-4648-8D33-D2FE0D1717C2}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -854,7 +878,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_430CCBA24E6145E09D16A6515D08A945"
             {
-            "SourcePath" = "8:..\\Convert 3dm Files To Different Rhino Versions\\obj\\Release\\Convert 3dm Files To Different Rhino Versions.exe"
+            "SourcePath" = "8:..\\Convert 3dm Files To Different Rhino Versions\\obj\\x64\\Release\\Convert 3dm Files To Different Rhino Versions.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3D330F4282434709B6AF70FAF545DFDC"
