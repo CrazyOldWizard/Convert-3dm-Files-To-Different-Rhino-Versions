@@ -44,6 +44,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             this.label_Status = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label2 = new System.Windows.Forms.Label();
+            this.checkBoxFolderMode = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,7 +93,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -100,7 +101,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -123,9 +124,9 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(9, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
+            this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "File Path:";
+            this.label1.Text = "Selected Path:";
             this.toolTip1.SetToolTip(this.label1, "The path to the 3dm file that you would like to convert.");
             // 
             // label_SelecedFileVersion
@@ -171,11 +172,23 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             this.label2.TabIndex = 8;
             this.label2.Text = "Rhino Save Version";
             // 
+            // checkBoxFolderMode
+            // 
+            this.checkBoxFolderMode.AutoSize = true;
+            this.checkBoxFolderMode.Location = new System.Drawing.Point(300, 107);
+            this.checkBoxFolderMode.Name = "checkBoxFolderMode";
+            this.checkBoxFolderMode.Size = new System.Drawing.Size(85, 17);
+            this.checkBoxFolderMode.TabIndex = 9;
+            this.checkBoxFolderMode.Text = "Folder Mode";
+            this.checkBoxFolderMode.UseVisualStyleBackColor = true;
+            this.checkBoxFolderMode.CheckedChanged += new System.EventHandler(this.checkBoxFolderMode_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 136);
+            this.Controls.Add(this.checkBoxFolderMode);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label_Status);
             this.Controls.Add(this.versionBox);
@@ -214,6 +227,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
         private System.Windows.Forms.Label label_Status;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox checkBoxFolderMode;
     }
 }
 
