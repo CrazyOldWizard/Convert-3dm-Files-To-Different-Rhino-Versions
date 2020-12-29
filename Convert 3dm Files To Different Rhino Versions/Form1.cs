@@ -65,8 +65,6 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
                                 Read3dmFile(model);
                             }
                         });
-                        
-                        Models = files.ToList();
                     }
                 }
             }
@@ -140,6 +138,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
                         var finfo = new FileInfo(model);
                         var dir = finfo.Directory.FullName;
                         var newFileName = Path.Combine(dir, Path.GetFileNameWithoutExtension(model) + $"_VERSION{versionNumber}.3dm");
+                        UpdateFilePathBoxText(model);
                         UpdateStatusText($"Status: Saving file as version {versionNumber} file.");
                         try
                         {
