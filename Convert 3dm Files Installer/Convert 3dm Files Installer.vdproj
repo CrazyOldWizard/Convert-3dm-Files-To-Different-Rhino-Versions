@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_1164E3A0066245E0B7FCCEA9B78FBC69"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_1F2C69C30FB3426F8709A6178E1B2C47"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -92,6 +98,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -154,6 +168,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1164E3A0066245E0B7FCCEA9B78FBC69"
+            {
+            "SourcePath" = "8:rhinoConvert.ico"
+            "TargetName" = "8:rhinoConvert.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_3D330F4282434709B6AF70FAF545DFDC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1F2C69C30FB3426F8709A6178E1B2C47"
             {
             "SourcePath" = "8:Rhino3dmIO\\librhino3dmio_native.dylib"
@@ -372,7 +406,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_1164E3A0066245E0B7FCCEA9B78FBC69"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -486,7 +520,7 @@
             "Target" = "8:_430CCBA24E6145E09D16A6515D08A945"
             "Folder" = "8:_1A2D327A64694C0382359CB15BBC7D1E"
             "WorkingFolder" = "8:_3D330F4282434709B6AF70FAF545DFDC"
-            "Icon" = "8:"
+            "Icon" = "8:_1164E3A0066245E0B7FCCEA9B78FBC69"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B4A90070D8FC4807A076AD696F9280FF"
@@ -500,7 +534,7 @@
             "Target" = "8:_430CCBA24E6145E09D16A6515D08A945"
             "Folder" = "8:_E2857419653E4987A068EC22CC6006C5"
             "WorkingFolder" = "8:_3D330F4282434709B6AF70FAF545DFDC"
-            "Icon" = "8:"
+            "Icon" = "8:_1164E3A0066245E0B7FCCEA9B78FBC69"
             "Feature" = "8:"
             }
         }
@@ -904,7 +938,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_430CCBA24E6145E09D16A6515D08A945"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\Convert 3dm Files To Different Rhino Versions\\obj\\Release\\Convert 3dm Files To Different Rhino Versions.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3D330F4282434709B6AF70FAF545DFDC"

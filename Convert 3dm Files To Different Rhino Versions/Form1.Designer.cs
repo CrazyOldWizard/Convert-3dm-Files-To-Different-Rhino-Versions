@@ -30,6 +30,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.BTN_Browse = new System.Windows.Forms.Button();
             this.BTN_Convert = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -156,7 +157,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             // label_Status
             // 
             this.label_Status.AutoSize = true;
-            this.label_Status.Location = new System.Drawing.Point(12, 115);
+            this.label_Status.Location = new System.Drawing.Point(12, 113);
             this.label_Status.Name = "label_Status";
             this.label_Status.Size = new System.Drawing.Size(40, 13);
             this.label_Status.TabIndex = 7;
@@ -166,7 +167,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(419, 89);
+            this.label2.Location = new System.Drawing.Point(411, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 13);
             this.label2.TabIndex = 8;
@@ -175,7 +176,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             // checkBoxFolderMode
             // 
             this.checkBoxFolderMode.AutoSize = true;
-            this.checkBoxFolderMode.Location = new System.Drawing.Point(300, 107);
+            this.checkBoxFolderMode.Location = new System.Drawing.Point(323, 107);
             this.checkBoxFolderMode.Name = "checkBoxFolderMode";
             this.checkBoxFolderMode.Size = new System.Drawing.Size(85, 17);
             this.checkBoxFolderMode.TabIndex = 9;
@@ -198,6 +199,7 @@ namespace Convert_3dm_Files_To_Different_Rhino_Versions
             this.Controls.Add(this.BTN_Convert);
             this.Controls.Add(this.BTN_Browse);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(650, 175);
